@@ -1,2 +1,2 @@
-# plugins-spelling
-plugins spelling
+# plugins-language
+plugins language
