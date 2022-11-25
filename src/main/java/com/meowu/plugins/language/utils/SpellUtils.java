@@ -1,4 +1,4 @@
-package com.meowu.plugins.spelling.utils;
+package com.meowu.plugins.language.utils;
 
 import com.google.common.base.CaseFormat;
 import com.meowu.commons.utils.AssertUtils;

@@ -5,14 +5,14 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <name>spelling</name>
+    <name>language</name>
     <groupId>com.meowu.plugins</groupId>
-    <artifactId>spelling</artifactId>
+    <artifactId>language</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <properties>
-        <project.name>spelling</project.name>
+        <project.name>language</project.name>
         <project.jdk.version>11</project.jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -20,8 +20,8 @@
         <apache.maven-jar.version>3.2.0</apache.maven-jar.version>
         <apache.maven-resources.version>3.2.0</apache.maven-resources.version>
 
-        <junit.version>4.13</junit.version>
-        <lombok.version>1.18.12</lombok.version>
+        <junit.version>4.13.2</junit.version>
+        <lombok.version>1.18.24</lombok.version>
         <meowu.commons.version>0.0.1</meowu.commons.version>
     </properties>
 
