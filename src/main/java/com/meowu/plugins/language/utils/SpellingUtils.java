@@ -7,7 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.nio.charset.Charset;
 
-public class SpellUtils{
+public class SpellingUtils {
 
     private final static String  EMPTY   = "";
     private final static Charset CHARSET = Charset.forName("utf-8");
