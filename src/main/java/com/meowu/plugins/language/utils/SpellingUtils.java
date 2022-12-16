@@ -19,11 +19,18 @@ public class SpellingUtils{
         AssertUtils.notNull(bytes, "array must not be null");
         AssertUtils.notNull(charset, "charset must not be null");
 
+        return toString(bytes, 0, bytes.length, charset);
+    }
+
+    public static String toString(byte[] bytes, int offset, int length, Charset charset){
+        AssertUtils.notNull(bytes, "array must not be null");
+        AssertUtils.notNull(charset, "charset must not be null");
+
         if(ArrayUtils.isEmpty(bytes)){
             return StringConstants.EMPTY_STRING;
         }
 
-        return new String(bytes, charset);
+        return new String(bytes, offset, length);
     }
 
     public static String upper(String str){
